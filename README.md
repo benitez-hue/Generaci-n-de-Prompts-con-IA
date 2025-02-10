@@ -44,6 +44,38 @@ Las tecnologías necesarias ya existen (Computer Visión, Chatbots, APIs de log�
 Se minimizan costos operativos al evitar despachos erróneos y optimizar devoluciones.
 Se mejora la experiencia del cliente, reduciendo tiempos de espera y costos adicionales.
 El sistema es escalable, permitiendo futuras mejoras como IA para predicción de errores.
+Preentrega 2 - Fast Prompting en Acción
+📌 Implementación de una Proof of Concept (POC) en Jupyter Notebook
+
+💡 Objetivo: Aplicar técnicas de Fast Prompting para mejorar la gestión de devoluciones con IA.
+
+1️⃣ Contenido del Repositorio en GitHub
+✅ Introducción:
+
+Nombre del Proyecto: Optimización de la Gestión de Devoluciones con IA
+Problema y solución propuesta: (resumen de la primera entrega).
+✅ Objetivos del Proyecto
+
+Reducir errores en envíos antes de que lleguen al cliente.
+Automatizar la comunicación con tiendas vendedoras.
+Facilitar devoluciones con opciones flexibles.
+✅ Metodología
+
+Uso de modelos de Computer Vision para verificación de productos.
+Generación de prompts optimizados para Chatbots de reclamos.
+Optimización del flujo de devoluciones con IA.
+✅ Implementación en Jupyter Notebook
+📌 Desarrollo de Prompts:
+
+📦 Verificación del producto recibido con IA.
+📲 Generación automática de reclamos con detalles del error.
+📜 Generación de código QR para devoluciones sin embalaje.
+🔄 Seguimiento automatizado de reembolsos.
+✅ Herramientas y Tecnologías
+
+Python + OpenAI API para Fast Prompting.
+Computer Vision con modelos pre-entrenados.
+Chatbots con IA para automatización de reclamos.
 
 
 
