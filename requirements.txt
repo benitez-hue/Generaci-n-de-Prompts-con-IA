@@ -1,0 +1,9 @@
+openai
+tensorflow
+opencv-python
+numpy
+qrcode[pil]
+matplotlib
+requests
+smtplib
+email
