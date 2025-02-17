@@ -2,7 +2,7 @@ import openai
 import os
 
 # Cargar clave API desde variable de entorno (MUY RECOMENDADO)
-api_key = os.getenv("OPENAI_API_KEY")
+openai.api_key = os.getenv("OPENAI_API_KEY")
 client = openai.OpenAI(api_key=api_key)  # Se usa el nuevo cliente OpenAI
 
 def generar_reclamo(orden, producto_esperado, producto_recibido):
