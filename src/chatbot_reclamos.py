@@ -2,7 +2,8 @@ import openai
 import os
 
 # Cargar clave API desde variable de entorno (MUY RECOMENDADO)
-openai.api_key = os.getenv("OPENAI_API_KEY")
+api_key = os.getenv("OPENAI_API_KEY")
+client = openai.OpenAI(api_key=api_key)  # Se usa el nuevo cliente OpenAI
 
 def generar_reclamo(orden, producto_esperado, producto_recibido):
     """
@@ -25,7 +26,7 @@ def generar_reclamo(orden, producto_esperado, producto_recibido):
     """
 
     # Conexión con OpenAI (Nueva API)
-    response = openai.ChatCompletion.create(
+    response = client.chat.completions.create(
         model="gpt-3.5-turbo",  # Cambia el modelo si tienes acceso a GPT-4
         messages=[
             {"role": "system", "content": "Eres un asistente de servicio al cliente experto en devoluciones."},
@@ -34,10 +35,8 @@ def generar_reclamo(orden, producto_esperado, producto_recibido):
         max_tokens=100  # Limitamos tokens para reducir costos
     )
 
-    return response["choices"][0]["message"]["content"]
+    return response.choices[0].message.content  # Nueva estructura de respuesta en OpenAI v1.0.0+
 
 # Ejemplo de uso:
 if __name__ == "__main__":
     print(generar_reclamo("12345", "Celular X", "Celular Y"))
-
-    
