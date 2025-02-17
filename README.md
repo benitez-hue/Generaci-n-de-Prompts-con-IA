@@ -9,7 +9,6 @@ Las empresas que actúan como intermediarias en compras internacionales enfrenta
 •	Recepción de productos incorrectos por parte de los clientes finales.
 •	Procesos de devolución complicados, con costos a cargo del comprador.
 •	Falta de validación inmediata del contenido del paquete antes de su despacho.
-•	Poca comunicación entre la empresa intermediaria y la tienda vendedora.
 •	Requerimiento de devoluciones presenciales, lo que es inconveniente para clientes que recibieron su pedido puerta a puerta.
 •	Esto genera insatisfacción del cliente, costos logísticos innecesarios y desconfianza en el sistema de compras internacionales.
 
@@ -23,17 +22,13 @@ Las empresas que actúan como intermediarias en compras internacionales enfrenta
 ✅ Detección automática de discrepancias antes de despachar al cliente final.
 
 
-📲 Fase 2: Comunicación Automática con la Tienda Vendedora
-✅ Chatbot con IA que envía un reclamo automático con evidencia antes del despacho.
-✅ Generación de etiquetas de reenvío internacionales para garantizar la entrega.
-✅ Plazo de respuesta máximo de 30 días para gestionar devoluciones.
 
-📦 Fase 3: Opciones de Devolución Simplificadas
+📦 Fase 2: Opciones de Devolución Simplificadas
 ✅ Código QR para devolución sin embalaje ni etiqueta impresa.
 ✅ Puntos de devolución en ubicaciones estratégicas o recogida a domicilio.
 ✅ Opción de usar transportistas externos con rastreo del paquete.
 
-📜 Fase 4: Seguimiento y Reembolso Automatizado
+📜 Fase 3: Seguimiento y Reembolso Automatizado
 ✅ Si el cliente ya recibió un reembolso anticipado, se rastrea la devolución.
 ✅ Si el producto no es devuelto, se aplica un cobro automático.
 ✅ El reembolso se procesa en un máximo de 3 días hábiles tras la recepción del producto.
